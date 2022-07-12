@@ -1,0 +1,85 @@
+/*GENERICOS*/
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+}
+
+/*MAIN*/
+#main{
+    margin: 30px 0.5%;
+    border-radius: 5px;
+    background: #eee;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    /* width: 99%; */
+    height: auto;
+    max-width: 100%;
+    padding: 15px;
+}
+
+#img-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background: white;
+    padding: 10px;
+}
+
+#image{
+    max-width: 100%;
+}
+
+#title{
+    color: #333;
+    font-size: 4rem;
+    margin-bottom: 0px;
+}
+
+#subtitle{
+    font-size: 1.6rem;
+}
+
+#img-caption{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+/*CRONOLOGIA*/
+#tribute-info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#tribute-info h3{
+    margin-top: 50px;
+}
+
+#tribute-info ul{
+    width: 40%;
+    text-align: left;
+    line-height: 1.6;
+}
+
+#tribute-info li{
+    margin-top: 25px;
+}
+
+/*CITAS Y QUOTES*/
+#quote{
+    font-style: italic;
+    max-width: 40%;
+    text-align: left;
+}
+#citediv{
+    width: 40%;
+}
